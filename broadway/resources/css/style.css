@@ -8,9 +8,9 @@ color: white;}
 a {font-size: 18px;
 color: white;}
 
-.header {background-image: url("/Gregory-I.github.io/broadway/resources/images/the-flatiron-building.png");}
+.header {background-image: url("https://gregory-i.github.io/broadway/resources/images/the-flatiron-building.png");}
 
-.midder {background-image: url("/Gregory-I.github.io/broadway/resources/images/the-flatiron-building.png");}
+.midder {background-image: url("https://gregory-i.github.io/broadway/resources/images/the-flatiron-building.png");}
 
 .midder {color: white;}
 
