@@ -7,7 +7,6 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  justify-content: center;
 }
 
 a {
@@ -58,3 +57,52 @@ padding-right: 10px;
 }
 
 /* Featured Section */
+
+.Featured {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+}
+
+.features img {
+  width: 300px;
+  height: 200px;
+}
+
+
+.Locations {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/Users/Izzy/github/Gregory-I.github.io/Tea_Cozy/resources/images/img-locations-background.jpg);
+}
+
+.place {
+  display: flex;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  justify-content: center;
+}
+
+.bayside {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* Contact Section */
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer Section */
+footer {
+  padding-left: 20px;
+}
