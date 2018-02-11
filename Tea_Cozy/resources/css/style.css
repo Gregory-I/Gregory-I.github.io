@@ -7,6 +7,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  justify-content: center;
 }
 
 a {
@@ -37,3 +38,23 @@ header {
 header nav{
 padding-right: 10px;
 }
+
+/* Mission Section */
+
+.Mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  background-image: url(/Users/Izzy/github/Gregory-I.github.io/Tea_Cozy/resources/images/img-mission-background.jpg);
+}
+
+.mission_text {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  width: 1200px;
+}
+
+/* Featured Section */
