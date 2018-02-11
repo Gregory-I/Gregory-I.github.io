@@ -97,13 +97,13 @@ display: flex;
 }
 
 .place {
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
+  flex-flow: row wrap;
   width: 300px;
   background-color: black;
   opacity: 1;
   justify-content: center;
-  margin-top: 15px;
+
 }
 
 .bayside {
