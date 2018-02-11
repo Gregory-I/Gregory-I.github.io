@@ -3,10 +3,12 @@
 
 body {
   font-family: "Helvetica"; sans-serif;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
+  display: block;
+  margin: 0;
 }
 
 a {
@@ -19,23 +21,27 @@ a {
 header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
   position: fixed;
   z-index: 1;
   width: 100%
   height: 69px;
   border-bottom: 1px solid seashell;
   background-color: black;
-  flex-grow: 1;
 }
 
-.logo img{
+#logo img{
+  display: flex;
   height: 50px;
+  padding-left: 10px;
   align-items: center;
 }
 
 header nav{
 padding-right: 10px;
+display: flex;
+
 }
 
 /* Mission Section */
@@ -45,6 +51,8 @@ padding-right: 10px;
   height: 700px;
   width: 1200px;
   align-items: center;
+  background-position: center;
+  justify-content: center;
   background-image: url(/Users/Izzy/github/Gregory-I.github.io/Tea_Cozy/resources/images/img-mission-background.jpg);
 }
 
@@ -62,16 +70,25 @@ padding-right: 10px;
   display: flex;
   width: 1000px;
   align-items: center;
+  flex-direction: column;
+}
+
+.features {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .features img {
   width: 300px;
   height: 200px;
+  margin: 10px;
 }
 
 
 .Locations {
   display: flex;
+  flex-direction: column;
   height: 500px;
   width: 1200px;
   align-items: center;
@@ -80,11 +97,13 @@ padding-right: 10px;
 }
 
 .place {
-  display: flex;
+  display: inline-flex;
+  flex-direction: row;
   width: 300px;
   background-color: black;
   opacity: 1;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .bayside {
@@ -105,4 +124,5 @@ padding-right: 10px;
 /* Footer Section */
 footer {
   padding-left: 20px;
+  text-align:left;
 }
