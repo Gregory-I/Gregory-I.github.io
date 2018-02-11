@@ -69,7 +69,6 @@ display: flex;
 .Featured {
   display: flex;
   width: 1000px;
-  align-items: center;
   flex-direction: column;
 }
 
@@ -77,6 +76,11 @@ display: flex;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.feat {
+  flex-direction: column;
+
 }
 
 .features img {
@@ -91,17 +95,23 @@ display: flex;
   flex-direction: column;
   height: 500px;
   width: 1200px;
-  align-items: center;
   justify-content: center;
   background-image: url(/Users/Izzy/github/Gregory-I.github.io/Tea_Cozy/resources/images/img-locations-background.jpg);
 }
 
-.place {
+.places {
   display: flex;
-  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.place {
   width: 300px;
+  
   background-color: black;
   opacity: 1;
+  margin: 15px 20px;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 
 }
