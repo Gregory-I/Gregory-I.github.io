@@ -74,13 +74,14 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 1200px;
 }
 
 .features {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 1000px;
+  width: 1200px;
 }
 
 
@@ -134,9 +135,11 @@ nav span {
   height: 200px;
   align-items: center;
   justify-content: center;
+  width: 1200px;
 }
 
 /* Footer Section */
+
 footer {
   padding-left: 20px;
   text-align:left;
